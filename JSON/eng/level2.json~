@@ -1,0 +1,13 @@
+{
+        "emotions":[
+       
+                    {"head":"DRAG THE HAPPY FACE INTO THE DROPZONE","que":"happy","audio":"happy2"},
+                    {"head":"DRAG THE ANGRY FACE INTO THE DROPZONE","que":"angry","audio":"angry2"},
+                    {"head":"DRAG THE SAD FACE INTO THE DROPZONE","que":"sad","audio":"sad2"},
+                    {"head":"DRAG THE DISGUSTED FACE INTO THE DROPZONE","que":"disgusted","audio":"disgusted2"},
+                    {"head":"DRAG THE FEAR FACE INTO THE DROPZONE","que":"fear","audio":"fear2"},
+                    {"head":"DRAG THE SURPRISED FACE INTO THE DROPZONE","que":"surprised","audio":"surprised2"}
+      
+      ]
+
+}

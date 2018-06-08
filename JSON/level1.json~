@@ -1,0 +1,13 @@
+{
+        "emotions":[
+       
+                    {"head":"ROBBIE FEELS HAPPY!<br>CLICK THE HAPPY FACE","que":"happy"},
+                    {"head":"ROBBIE FEELS ANGRY!<br>CLICK THE ANGRY FACE","que":"angry"},
+                    {"head":"ROBBIE FEELS SAD!<br>CLICK THE HAPPY FACE","que":"sad"},
+                    {"head":"ROBBIE FEELS DISGUSTED!<br>CLICK THE DISGUSTED FACE","que":"disgusted"},
+                    {"head":"ROBBIE FEELS ASHAMED!<br>CLICK THE ASHAMED FACE","que":"ashamed"},
+                    {"head":"ROBBIE FEELS SURPRISED!<br>CLICK THE SURPRISED FACE","que":"surprised"}
+      
+      ]
+
+}

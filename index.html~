@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/TimeCircles.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/mystyle.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/main.js"></script>
+<script src="js/TimeCircles.js"></script>
+
+</head>
+<body>
+
+	<audio id="questaudio" preload="auto">
+	
+   		 <source src=""> 
+	</audio>
+	
+	<audio id="ansaudio" preload="auto">
+	
+   		 <source src=""> 
+   		 
+	</audio>
+	
+	<audio id="correctaudio" preload="auto">
+	
+   		 <source src=""> 
+   		 
+	</audio>
+	
+	<audio id="correctclip" preload="auto">
+	
+   		 <source src="sound/correct.ogg"> 
+   		 
+	</audio>
+	
+	<audio id="wrongclip" preload="auto">
+	
+   		 <source src="sound/wrong2.ogg"> 
+   		 
+	</audio>
+	
+	<audio id="buttonclick" preload="auto">
+	
+   		 <source src="sound/button_click.ogg"> 
+   		 
+	</audio>
+	
+	<audio id="completed" preload="auto">
+	
+   		 <source src="sound/completed.ogg"> 
+   		 
+	</audio>
+
+	
+	<div class="container" id="main">
+
+		<header class="navbar navbar-default" >
+		    <div id="volume_icon" class="pull-left" ></div>
+            <div id="quesarea">
+                <center>
+			        MATCHING ACTIONS
+			    </center> 	
+		    </div>	 
+	   </header>
+		
+		<section class="innercontainer">
+		
+		    <div id="listing_page">
+		        <div id="lang_selection" class="pull-right">
+				    <div id="language"  >
+				        <button class="lan btn btn-success" id="eng" type="button" data-language="english">ENGLISH</button>/
+				        <button style="opacity:0.5;" class="lan btn btn-danger" id="mal" type="button" data-language="malayalam">മലയാളം</button>	
+			        </div>
+		        </div>
+		        <br>
+		       
+			    <div id="button">
+			       
+				    <div id="option1">
+				        <!--img class='imgaudio pull-left' data-value="1" src='images/audio.png'/-->
+				        
+				        <button class="level btn btn-info" id="level1"  data-order="1">START</button> 
+				    </div>
+				     <!--div id="option2" class="le_option alert alert-success" > 
+				        
+				        <b></b> 
+				        <button class="level btn btn-success" id="level2"  data-order="2">LEVEL-2</button> 
+				    </div>
+				     <div id="option3" class="le_option alert alert-danger" > 
+				        
+				        <b></b> 
+				        <button class="level btn btn-primary" id="level3"  data-order="3">LEVEL-3</button> 
+				    </div-->
+				   
+			    </div>
+			    
+			</div> 
+			
+			<div id="game_start">
+			
+			    <div id="container_level1" class="game">
+			               <div id="pic">
+			                    <div class="pics">
+			                    <img id="pic1"src=""/>
+			                    <img id="pic2"src=""/>
+			                    <img id="pic3"src=""/>
+			                    </div>
+			                    <div class="text">
+			                        <div id="drop1" class="drop"></div>
+			                        
+			                        <div id="drop2"  class="drop"></div>
+			                       
+			                        <div id="drop3" class="drop"></div>
+			                    </div>
+			               </div>
+			               <div id="action">
+			                    <div class="option">
+			                        <img class="pull-left" src="images/audio.png"/>
+			                        <div id="act1" class="drag btn btn-info"></div>
+			                    </div>
+			                    <div class="option">
+			                        <img class="pull-left"src="images/audio.png"/>
+			                        <div id="act2" class="drag btn btn-info"></div>
+			                    </div>
+			                    <div class="option"> 
+			                        <img class="pull-left"src="images/audio.png"/>
+			                        <div id="act3" class="drag btn btn-info"></div>
+			                    </div>
+			               </div>
+			     </div>
+		   </div>
+		</section>
+	
+		<footer class="navbar navbar-default text-center">
+			
+				<div id="home" class="btn pull-left">
+					<img src="images/home.png" >
+				</div>
+				<center>
+				    <div id="copyright">
+					    <p>©SPACE 2016</p>
+				    </div>
+				</center>
+				<div id="questionscreen" class="label alert-info">
+				    <span id='qno'>Question-</span><span id="quest_no"> 1 / 10</span>
+				</div>
+				<div class="time">
+				</div>
+				<div id="score">
+						<div id="right_" class="label label-success">
+							<span id="right_span">Right </span>/
+							<span id="right">0</span>
+						</div>
+						<div id="wrong_" class="label label-default">
+							<span id="wrong_span">Wrong </span>/
+							<span id="wrong">0</span>
+					    </div>	
+				</div>				
+			</footer>			
+			</div>
+			
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+        "actions":[
+       
+                    {"img":"jumping","descp":"The dog is jumping.","audio":"","ans":1},
+                    {"img":"whistling","descp":"The kettle is whistling.","audio":"","ans":2},
+                    {"img":"ripping","descp":"The boy is ripping the paper.","audio":"","ans":3},
+                    {"img":"entertaining","descp":"The clown is entertaining.","audio":"","ans":4},
+                    {"img":"phoning","descp":" The little boy is making a call.","audio":"","ans":5},
+                    {"img":"sitting","descp":"Jerry is sitting.","audio":"","ans":6},
+                    {"img":"hugging","descp":"They are hugging grandpa.","audio":"","ans":7},
+                    {"img":"kicking","descp":"Tom is kicking the ball.","audio":"","ans":8},
+                    {"img":"climbing","descp":"The cat is climbling the ladder.","audio":"","ans":9},
+                    {"img":"hitting","descp":"The ball is hitting the head.","audio":"","ans":10},
+                    {"img":"flying","descp":"A bat is flying.","audio":"","ans":11},
+                    {"img":"hanging","descp":"Jerry is hanging a poster.","audio":"","ans":12},
+                    {"img":"riding","descp":"Robert is riding a horse.","audio":"","ans":13},
+                    {"img":"baking","descp":"Bella is baking cake.","audio":"","ans":14},
+                    {"img":"playing","descp":"Bill is playing with pets.","audio":"","ans":15}         
+      ]
+}

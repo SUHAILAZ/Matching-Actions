@@ -1,0 +1,20 @@
+{
+        "actions":[
+       
+                    {"img":"jumping","descp":"പട്ടി ചാടുന്നു.","audio":"","ans":1},
+                    {"img":"whistling","descp":"കെറ്റില്‍ ചൂളം വിളിക്കുന്നു.","audio":"","ans":2},
+                    {"img":"ripping","descp":"കുട്ടി കടലാസ്  കീറുന്നു.","audio":"","ans":3},
+                    {"img":"entertaining","descp":"കോമാളി ചിരിപ്പിക്കുന്നു.","audio":"","ans":4},
+                    {"img":"phoning","descp":"ആണ്‍കുട്ടി ഫോണ്‍ ചെയ്യുന്നു.","audio":"","ans":5},
+                    {"img":"sitting","descp":"ജെറി ഇരിക്കുന്നു.","audio":"","ans":6},
+                    {"img":"hugging","descp":"അപ്പുപ്പനെ അവര്‍ കെട്ടിപ്പിടിക്കുന്നു.","audio":"","ans":7},
+                    {"img":"kicking","descp":"ടോം പന്ത് ചവിട്ടുന്നു.","audio":"","ans":8},
+                    {"img":"climbing","descp":"പൂച്ച ഏണിയില്‍ കയറുന്നു.","audio":"","ans":9},
+                    {"img":"hitting","descp":"പന്ത് തലയില്‍ കൊള്ളുന്നു.","audio":"","ans":10},
+                    {"img":"flying","descp":"വവ്വാല്‍ പറക്കുന്നു.","audio":"","ans":11},
+                    {"img":"hanging","descp":"ജെറി പോസ്റ്റര്‍ തൂക്കുന്നു.","audio":"","ans":12},
+                    {"img":"riding","descp":"റോബര്‍ട്ട് കുതിര സവാരി ചെയ്യുന്നു.","audio":"","ans":13},
+                    {"img":"baking","descp":"ബെല്ല കേക്ക് ഉണ്ടാക്കുന്നു.","audio":"","ans":14},
+                    {"img":"playing","descp":"ബില്‍ വളര്‍ത്തുമൃഗങ്ങള്‍ക്കൊപ്പം കളിക്കുന്നു.","audio":"","ans":15}         
+      ]
+}

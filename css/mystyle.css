@@ -1,0 +1,258 @@
+@font-face {
+    font-family: RaghuMalayalam;
+    src: url(../../fonts/RaghuMalayalam.ttf);
+}
+body{
+	    height:100%;
+	    width:100%;
+	    margin:0;
+	    background:url("../images/background1.jpg")repeat;
+	    background-size: 110vh 100vh;
+	    font-family: RaghuMalayalam, Helvetica;
+}
+
+#volume_icon{
+	    background-image: url("../images/volume.png");
+        background-size: 100% 100%;
+        cursor: pointer;
+        height: 60%; 
+        position: absolute;
+        left:10%;
+        width: 5%;
+        top: 2vh;
+        z-index: 1;
+}
+
+#lang_selection{
+	
+	//min-width: 150px;
+    width: 25%;
+}
+.le_option, .level, .lan{
+    border-radius:35px;
+}
+#lang_selection .le_option b{
+
+	font-size: 21px;
+	
+}
+
+.lan{
+
+	    font-size: 12px;
+	    font-weight:bold;
+        margin: 2px;
+        padding: 7px 6px;
+}
+
+
+
+#main{
+	
+	    bottom: 0;
+        height: 97%;
+        left: 0;
+        margin:auto;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 60%;
+	    background:url("../images/background.jpg")no-repeat;
+        background-size:100% 100%;
+        background-position:center;
+	    min-width:600px;
+	    min-height:400px;
+	    border-radius:25vh;
+	   box-shadow: 0 1px 5px 4px grey;
+}
+#main header{
+
+        color:black;
+        font-size: 3vh;
+        font-weight: bold;
+        height: 9vh;
+        margin-bottom: 3vh;
+        min-height: 5vh;
+        padding-top: 1.5vh;
+        border:none;
+        background:none;
+}
+
+
+#quesarea{
+	
+	position:relative;
+	font-size:3vh;
+	font-weight:bold;
+	height:10%;
+}
+
+#button{
+	
+    height: 7%;
+    left: 5vh;
+    margin: auto;
+    min-width: 260px;
+    position: absolute;
+    right: 0;
+    top: 45vh;
+    width: 46%;
+    text-align:center
+    }
+
+.le_option b{
+
+        float: left;
+        font-size: 2.5vh;
+        padding:2vh;
+    }
+
+.le_option{
+           height: 41%;
+    }
+
+#button .btn{
+	
+	    //float: right;
+        font-size: 2vh;
+        margin: 1%;
+        min-width: 14%;
+        padding: 1vh 0;
+        width: 22%;
+    }
+#button .alert{
+        padding: 3px 8px;
+        
+}
+
+.innercontainer{	
+        height: 73vh;
+        min-height: 300px;
+    }
+
+.game{
+        width:98%;
+        margin:auto;
+        height:72%;
+        position:absolute;
+        left:0;
+        top:0;
+        right:0;
+        bottom:0;
+    }
+#listing_page{
+        height:100%;
+}
+.ques{
+        width:80%;
+        margin:auto;
+        height:15vh;  
+    }
+.drag{
+        margin-right:3vh;
+        white-space:normal;
+        width:79%;
+        float:right;
+        font-size:2.5vh;
+        font-weight:bold;
+}
+#action{
+width:95%;
+margin:auto;
+}
+#pic{
+    height:55vh;
+}
+#action,#pic{
+        text-align:center;
+}
+.pics img{
+        margin:2vh 6.5vh;
+        width:22%;
+        border: 9px solid #FAEBD7;
+        box-shadow:1px 7px 22px black;
+        height:35vh;
+}
+.option{
+width:33%;
+float:left;
+
+}
+.option img{
+    cursor:pointer;
+}
+.drop{
+        width:27%;
+        margin:0vh 3vh 0vh 4vh;        
+       box-shadow:1px 7px 22px black;
+        background:white;
+        display:inline-block;
+        height:10vh;
+} 
+
+.images{
+        border: 2px solid brown;
+        border-radius:3vh;
+        margin:4vh;
+        width:20vh;
+        height:20vh;
+}
+
+#main footer{
+        color: black;
+        font-size: 3vh;
+        height: 9vh;
+        margin-bottom: 0;
+        margin-top: 3vh;
+        min-height: 5vh;
+        padding-top: 1.5vh;
+        border:none;
+        background:none;
+        width:85%;
+        margin:auto;
+
+    }
+
+
+#home img {
+        bottom: 6px;
+        height: 6vh;
+        position: absolute;
+        width: 6%;
+    }
+ 
+div.timer, div.time {
+        bottom: 0;
+        color: black;
+        height: 46px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        width: 100px;
+}
+
+
+#questionscreen{
+       position: absolute;
+       left:100px;
+       top: 3vh;
+}
+
+#score {
+   
+        float: right;
+        margin: 0.5vh 1vh;
+    
+}
+
+#score .label{
+	    margin:2px;
+}
+
+
+
+
+
+
